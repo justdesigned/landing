@@ -13,7 +13,7 @@ const conf = {
   dest: "./build",
 };
 
-let isDev = false;
+let isDev = true;
 let isProd = !isDev;
 
 const webpackConfig = {

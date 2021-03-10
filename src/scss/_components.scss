@@ -1,0 +1,79 @@
+$title-font: "Epilogue";
+$title-color: #111563;
+$text-color: #63718e;
+
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s;
+  &--small {
+    padding: 4px 22px;
+
+    font-size: 15px;
+    line-height: 150%;
+  }
+  &--big {
+    padding: 14px 22px;
+    font-size: 20px;
+    line-height: 1;
+  }
+  &--filled {
+    border: 2px solid #c774ee;
+    background-color: #c774ee;
+    color: #fff;
+    &:hover {
+      box-shadow: 0px 5px 10px rgba(76, 174, 80, 0.3);
+    }
+  }
+  &--transparent {
+    border: 2px solid #63718e;
+    background-color: transparent;
+    color: #63718e;
+    &:hover {
+      border: 2px solid #c774ee;
+      color: #c774ee;
+    }
+  }
+}
+
+.h1 {
+  font-family: $title-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 120%;
+  color: $title-color;
+}
+.h2 {
+  font-family: $title-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: $title-color;
+}
+.h3 {
+  font-family: $title-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: $title-color;
+}
+.h4 {
+  font-family: $title-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: $title-color;
+}
+.text-m {
+  font-size: 18px;
+  line-height: 150%;
+  color: $text-color;
+}
+.text-s {
+  font-size: 16px;
+  line-height: 150%;
+  color: $text-color;
+}
