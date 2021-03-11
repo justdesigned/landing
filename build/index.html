@@ -60,8 +60,8 @@
     </header>
     <section class="promo">
       <div class="container">
-        <div class="promo__inner">
-          <div class="promo__content">
+        <div class="promo__inner flex">
+          <div class="promo__content col-50">
             <h1 class="promo__title h1">
               At vero eos et accusamus et iusto odio dignissimos ducimus
             </h1>
@@ -77,12 +77,154 @@
               >Try for free
             </a>
           </div>
-          <div class="promo__image">
+          <div class="promo__image col-50">
             <img src="./img/promo-image.png" alt="promo image" />
           </div>
         </div>
       </div>
     </section>
+    <section class="req">
+      <div class="container">
+        <div class="req__inner flex">
+          <div class="req__image col-50">
+            <img class="" src="./img/req-image.png" alt="requirements-image" />
+          </div>
+          <div class="req__content col-50">
+            <h2 class="req__title h2">
+              Temporibus autem quibusdam et aut officiis debitis
+            </h2>
+            <div class="req__text text-m">
+              At vero eos et accusamus et iusto odio dignissimos ducimus, qui
+              blanditiis praesentium voluptatum deleniti atque corrupti, quos
+              dolores et quas molestias excepturi sint, obcaecati cupiditate non
+              provident, similique sunt in culpa, qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga.
+            </div>
+            <a href="#" class="req__btn btn btn--big btn--filled"
+              >Try for free
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="calculator">
+      <!-- <div class="container">
+        <div class="calculator__inner">
+          <h2 class="calculator__title h2">Calculator</h2>
+          <p class="calculator__text text-m">
+            Nam libero tempore, cum soluta nobis est eligendi optio
+          </p>
+          <form class="calc-form" action="">
+            <select class="calc-form__select select--sm" name="colors" id="colors">
+              <option value="" selected disabled hidden>Colors</option>
+              <option value="red">Red</option>
+              <option value="green">Green</option>
+              <option value="blue">Blue</option>
+              <option value="orange">Orange</option>
+            </select>
+            <select class="calc-form__select select--sm" name="size" id="size">
+              <option value="size">Size</option>
+              <option value="100">100%</option>
+              <option value="150">150%</option>
+              <option value="200">200%</option>
+            </select>
+            <input type="number" name="items" id="items">
+            <input type="date" name="date" id="date">
+            <div class="total">$ 56.25</div>
+            <select class="calc-form__select select--lg" name="city" id="city">
+              <option value="Kyiv">Kyiv</option>
+              <option value="Odessa">Odessa</option>
+              <option value="Rivne">Rivne</option>
+              <option value="Lviv">Lviv</option>
+            </select>
+            <select class="calc-form__select select--lg" name="delivery" id="delivery">
+              <option value="New Post">New Post</option>
+              <option value="Urkposhta">Urkposhta</option>
+              <option value="Pickup">Pickup</option>
+            </select>
+            <input class="btn btn--big btn--filled" type="submit" value="Proceed">
+          </form>
+        </div>
+      </div> -->
+    </section>
+    <section class="steps">
+      <div class="container">
+        <div class="steps__inner">
+          <h2 class="steps__title h2">How it works</h2>
+          <p class="steps__text text-m">
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <div class="steps__progress slider-progress">
+            <div class="slider-progress__item active">
+              <div class="slider-progress__item-num">
+                <span>1</span>
+              </div>
+              <div class="slider-progress__item-text text-s">Step 1</div>
+            </div>
+            <div class="slider-progress__line active"></div>
+            <div class="slider-progress__item active">
+              <div class="slider-progress__item-num">
+                <span>2</span>
+              </div>
+              <div class="slider-progress__item-text text-s">Step 2</div>
+            </div>
+            <div class="slider-progress__line active"></div>
+            <div class="slider-progress__item active">
+              <div class="slider-progress__item-num">
+                <span>3</span>
+              </div>
+              <div class="slider-progress__item-text text-s">Step 3</div>
+            </div>
+            <div class="slider-progress__line"></div>
+            <div class="slider-progress__item ">
+              <div class="slider-progress__item-num">
+                <span>4</span>
+              </div>
+              <div class="slider-progress__item-text text-s">Step 4</div>
+            </div>
+          </div>
+
+          <div class="steps__slider steps-slider">
+            <h3 class="steps-slider__subtitle h3">Step 3</h3>
+            <h2 class="steps-slider__title h2">Sed ut perspiciatis</h2>
+            <div class="steps-slider__inner flex">
+              <div class="steps-slider__list">
+                <div class="steps-slider__list-item">Nemo enim</div>
+                <div class="steps-slider__list-item active">
+                  Die ipsam voluptatem
+                </div>
+                <div class="steps-slider__list-item">Ut enim ad minima</div>
+                <div class="steps-slider__list-item">Quis autem vel</div>
+                <div class="steps-slider__list-item">Sed ut perspiciatis</div>
+              </div>
+              <div class="steps-slider__content">
+                <p class="steps-slider__text text-s">
+                  Nemo enim ipsam voluptatem, quia voluptas sit
+                </p>
+                <p class="steps-slider__text text-s">
+                  <span class="accent">1.</span> Sed ut perspiciatis, unde omnis
+                  iste natus error sit voluptatem accusantium
+                </p>
+                <p class="steps-slider__text text-s">
+                  <span class="accent">2.</span> Doloremque laudantium, totam
+                  rem aperiam eaque ipsa, quae ab illo inventore
+                </p>
+                <p class="steps-slider__text text-s">
+                  <span class="accent">3.</span> Fet enim ad minima veniam, quis
+                  nostrum exercitationem ullam corporis
+                </p>
+                <span class="text-s accent">Notice:</span>
+                <p class="steps-slider__text text-s">
+                  Dolorem ipsum, quia dolor sit amet consectetu
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="/js/main.min.js"></script>
   </body>
 </html>
